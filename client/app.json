@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/gate/index",
+    "pages/article-list/index",
+    "pages/index/index",
+    "pages/publish-list/index",
+    "pages/my-publish-in/index",
+    "pages/my-publish-fabu/index",
+    "pages/career-details/index",
+    "pages/article/index",
+    "pages/person/index",
+    "pages/career/index",
+    "pages/questionnaire/index",
+    "pages/mine/index",
+    "pages/publish/index",
+    "pages/my-career/index",
+    "pages/my-career-pub/index"
+  ],
+  "window": {
+    "backgroundColor": "#F5F5F5",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "职页",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#11B4AF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home2.png"
+      },
+      {
+        "pagePath": "pages/article-list/index",
+        "text": "讨论区",
+        "iconPath": "images/discuss.png",
+        "selectedIconPath": "images/discuss2.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine2.png"
+      }
+    ]
+  }
+}

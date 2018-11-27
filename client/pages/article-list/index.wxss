@@ -1,0 +1,45 @@
+#body {
+  width: 100%;
+  min-height: 600rpx;
+  padding: 50rpx 0;
+  background-color:#F6F6F6;
+}
+
+.article-box {
+  height: auto;
+  width: 94%;
+  padding:20rpx 0;
+  margin: 20rpx auto 30rpx;
+  border-radius: 5rpx;
+  box-shadow: 1px 2px 3px #ccc;
+  background-color: #fff;
+}
+
+.article-inner {
+  padding: 30rpx;
+}
+
+.title {
+  font-size: 28rpx;
+}
+
+.date {
+  font-size: 56rpx;
+  font-weight: 500;
+  margin-left: 40rpx;
+}
+
+.add-btn {
+  position: fixed;
+  bottom: 20rpx;
+  right: 28rpx;
+
+}
+
+.add-btn image{
+  width:80rpx;
+  height:80rpx;
+  padding:5rpx;
+  border-radius: 50%;
+  background-color:#11B4AF;
+}

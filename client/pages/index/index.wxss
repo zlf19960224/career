@@ -1,0 +1,150 @@
+/* pages/index/index.wxss */
+
+page {
+  height: 100%;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+/*轮播图*/
+
+.swiper {
+  width: 100%;
+  height: 500rpx;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+
+/*八大职业*/
+
+.box {
+  margin-top: 20rpx;
+}
+
+.profession {
+  width: 25%;
+  float: left;
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+}
+
+.box {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.image-info image {
+  width: 100rpx;
+  margin: 0 auto;
+  height: 100rpx;
+  display: block;
+}
+
+.text-info {
+  font-size: 28rpx;
+  text-align: center;
+}
+
+/*分割线*/
+
+.block {
+  background-color: white;
+  padding-bottom: 20rpx;
+  margin-top: 30rpx;
+}
+
+/*内推top5*/
+
+.top5 {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 47.5rpx;
+  height: 50rpx;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.title_image {
+  height: 45rpx;
+  width: 45rpx;
+  padding-right: 10rpx;
+}
+
+.title1 {
+  font-weight: 580;
+  font-size: 32rpx;
+  line-height: 40rpx;
+}
+
+.box2 {
+  padding: 0 47.5rpx 10rpx 47.5rpx;
+}
+
+.list {
+  padding: 30rpx 0rpx 30rpx 0rpx;
+  font-size: 30rpx;
+  line-height: 35rpx;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #eee;
+}
+
+.tilte3 {
+  width: 670rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 32rpx;
+}
+
+.block2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30rpx;
+  border-top: 1rpx solid tranparent;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300rpx;
+  height: 100%;
+  background-color: #fff;
+  color: #000;
+  padding-top: 20rpx;
+  border-radius: 10rpx;
+  margin: 0 20rpx;
+  box-shadow: 1px 1px 3px #999;
+}
+
+.card_image_info image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.card_text_info {
+  font-size: 28rpx;
+  text-align: center;
+  padding: 10rpx 0rpx;
+}
+
+/*进入图标*/
+
+.nav-top5 :active {
+  opacity: 1;
+  transform: scale(0.9);
+}
+
+.ind {
+  margin-right: 20rpx;
+}
+
+.navclass {
+  opacity: 0.7;
+  background-color: transparent;
+}
